@@ -1,4 +1,4 @@
-echo "pipeline {
+pipeline {
     agent any
     stages {
         stage('Build') {
@@ -17,4 +17,4 @@ echo "pipeline {
             }
         }
     }
-}" > Jenkinsfile
+}
